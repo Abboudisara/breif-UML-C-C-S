@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{C8447FE5-0C86-48E7-89CB-F7C91D076725}" Label="" LastModificationDate="1610052923" Name="palateforme" Objects="32" Symbols="13" Target="C#" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{C8447FE5-0C86-48E7-89CB-F7C91D076725}" Label="" LastModificationDate="1610056753" Name="palateforme" Objects="108" Symbols="11" Target="Visual Basic .NET" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="16.7.1.6488"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
 
 <o:RootObject Id="o1">
+<a:SessionID>00000000-0000-0000-0000-000000000000</a:SessionID>
 <c:Children>
 <o:Model Id="o2">
 <a:ObjectID>C8447FE5-0C86-48E7-89CB-F7C91D076725</a:ObjectID>
@@ -12,7 +13,7 @@
 <a:Code>palateforme</a:Code>
 <a:CreationDate>1609925706</a:CreationDate>
 <a:Creator>Youcode</a:Creator>
-<a:ModificationDate>1610052923</a:ModificationDate>
+<a:ModificationDate>1610056753</a:ModificationDate>
 <a:Modifier>Youcode</a:Modifier>
 <a:PackageOptionsText>[FolderOptions]
 
@@ -1169,14 +1170,17 @@ CheckRequested=Yes</a:PackageOptionsText>
 <a:ModelOptionsText>[ModelOptions]
 
 [ModelOptions\Cld]
-CaseSensitive=Yes
+CaseSensitive=No
 DisplayName=Yes
 EnableTrans=Yes
+UseTerm=No
 EnableRequirements=No
+EnableFullShortcut=No
+SynchroCode=Yes
 ShowClss=No
-DeftAttr=int
-DeftMthd=int
-DeftParm=int
+DeftAttr=Object
+DeftMthd=Object
+DeftParm=Object
 DeftCont=System.Collections.ArrayList
 DomnDttp=Yes
 DomnChck=No
@@ -1188,9 +1192,6 @@ DttpFullName=Yes
 DeftClssAttrVisi=private
 VBNetPreprocessingSymbols=
 CSharpPreprocessingSymbols=
-UseTerm=No
-EnableFullShortcut=Yes
-SynchroCode=Yes
 
 [ModelOptions\Cld\NamingOptionsTemplates]
 
@@ -1216,7 +1217,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1244,7 +1245,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1272,7 +1273,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1300,7 +1301,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1328,7 +1329,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1356,7 +1357,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1384,7 +1385,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1412,7 +1413,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1440,7 +1441,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1468,7 +1469,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1496,7 +1497,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1524,7 +1525,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1552,7 +1553,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1580,7 +1581,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1608,7 +1609,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1636,7 +1637,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1664,7 +1665,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1692,7 +1693,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1720,7 +1721,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1748,7 +1749,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1776,7 +1777,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1804,7 +1805,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1832,7 +1833,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1860,7 +1861,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1888,7 +1889,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1916,7 +1917,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1944,7 +1945,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -1972,7 +1973,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_. &quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -2000,7 +2001,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -2028,35 +2029,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
-AllValid=Yes
-NoAccent=Yes
-DefaultChar=_
-Script=.convert_code(%Code%,&quot; &quot;)
-ConvTable=
-ConvTablePath=%_HOME%\Resource Files\Conversion Tables
-
-[ModelOptions\Cld\ClssNamingOptions\DefaultClass]
-
-[ModelOptions\Cld\ClssNamingOptions\DefaultClass\Name]
-Template=
-MaxLen=254
-Case=M
-ValidChar=
-InvldChar=
-AllValid=Yes
-NoAccent=No
-DefaultChar=_
-Script=.convert_name(%Name%,&quot;_&quot;)
-ConvTable=
-ConvTablePath=%_HOME%\Resource Files\Conversion Tables
-
-[ModelOptions\Cld\ClssNamingOptions\DefaultClass\Code]
-Template=
-MaxLen=254
-Case=M
-ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;&quot;&quot;().\#&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -2084,7 +2057,35 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DefaultClass]
+
+[ModelOptions\Cld\ClssNamingOptions\DefaultClass\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DefaultClass\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().#&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -2093,6 +2094,15 @@ ConvTable=
 ConvTablePath=%_HOME%\Resource Files\Conversion Tables
 
 [ModelOptions\Generate]
+
+[ModelOptions\Generate\Xsm]
+GenRootElement=Yes
+GenComplexType=No
+GenAttribute=Yes
+CheckModel=Yes
+SaveLinks=Yes
+ORMapping=No
+NameToCode=No
 
 [ModelOptions\Generate\Cdm]
 CheckModel=Yes
@@ -2107,35 +2117,27 @@ ORMapping=No
 NameToCode=No
 BuildTrgr=No
 TablePrefix=
-RefrUpdRule=RESTRICT
-RefrDelRule=RESTRICT
 IndxPKName=%TABLE%_PK
 IndxAKName=%TABLE%_AK
 IndxFKName=%REFR%_FK
 IndxThreshold=
 ColnFKName=%.3:PARENT%_%COLUMN%
 ColnFKNameUse=No
-PreserveMode=Yes
-
-[ModelOptions\Generate\Xsm]
-CheckModel=Yes
-SaveLinks=Yes
-ORMapping=No
-NameToCode=No
-GenRootElement=Yes
-GenComplexType=No
-GenAttribute=Yes</a:ModelOptionsText>
+RefrUpdRule=RESTRICT
+RefrDelRule=RESTRICT
+PreserveMode=Yes</a:ModelOptionsText>
+<a:RepositoryFilename>C:\Users\Youcode\Desktop\breif-UML-C-C-S\palateforme.moo</a:RepositoryFilename>
 <c:ObjectLanguage>
 <o:Shortcut Id="o3">
-<a:ObjectID>0CCFE6B8-DF9D-4E68-892F-DF88089CF32A</a:ObjectID>
-<a:Name>C#</a:Name>
-<a:Code>C#</a:Code>
-<a:CreationDate>1610050631</a:CreationDate>
+<a:ObjectID>B8792F44-5A46-444F-9286-3E2BBF449473</a:ObjectID>
+<a:Name>Visual Basic .NET</a:Name>
+<a:Code>VB.NET</a:Code>
+<a:CreationDate>1610056753</a:CreationDate>
 <a:Creator>Youcode</a:Creator>
-<a:ModificationDate>1610050631</a:ModificationDate>
+<a:ModificationDate>1610056753</a:ModificationDate>
 <a:Modifier>Youcode</a:Modifier>
 <a:TargetStereotype/>
-<a:TargetID>D1E2D0BE-98BB-4413-890E-9D790F33B4DC</a:TargetID>
+<a:TargetID>4ED0AF77-254B-46CC-84FE-C6C81D4E2BE8</a:TargetID>
 <a:TargetClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetClassID>
 </o:Shortcut>
 </c:ObjectLanguage>
@@ -2158,8 +2160,8 @@ Snap Grid=No
 Constrain Labels=Yes
 Display Grid=No
 Show Page Delimiter=Yes
-Show Links intersections=Yes
-Activate automatic link routing=Yes
+Show Links intersections=No
+Activate automatic link routing=No
 Grid size=0
 Graphic unit=2
 Window color=255, 255, 255
@@ -2200,10 +2202,10 @@ EObjShowStrn=Yes
 ExtendedObject.Comment=No
 ExtendedObject.IconPicture=No
 ExtendedObject.TextStyle=No
-ExtendedObject_SymbolLayout=
+ExtendedObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom de l&amp;#39;objet&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Commentaire&quot; Attribute=&quot;Comment&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;LEFT&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Forcer l&amp;#39;alignement en haut&quot; Attribute=&quot;TextStyle&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
 ELnkShowStrn=Yes
 ELnkShowName=Yes
-ExtendedLink_SymbolLayout=
+ExtendedLink_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name=&quot;Centre&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Source&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Destination&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
 ExtDpdShowStrn=Yes
 ExtendedDependency_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name=&quot;Centre&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Source&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Destination&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
 FileObject.Stereotype=No
@@ -2212,12 +2214,12 @@ FileObject.LocationOrName=No
 FileObject.IconPicture=No
 FileObject.TextStyle=No
 FileObject.IconMode=Yes
-FileObject_SymbolLayout=
+FileObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;ExclusiveChoice Name=&quot;Choix exclusif&quot; Mandatory=&quot;Yes&quot; Display=&quot;HorizontalRadios&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Emplacement&quot; Attribute=&quot;LocationOrName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/ExclusiveChoice&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Forcer l&amp;#39;alignement en haut&quot; Attribute=&quot;TextStyle&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
 Package.Stereotype=Yes
 Package.Comment=No
 Package.IconPicture=No
 Package.TextStyle=No
-Package_SymbolLayout=
+Package_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Commentaire&quot; Attribute=&quot;Comment&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;LEFT&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Forcer l&amp;#39;alignement en haut&quot; Attribute=&quot;TextStyle&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
 Display Model Version=Yes
 Generalization.DisplayedStereotype=Yes
 Generalization.DisplayName=No
@@ -2226,7 +2228,7 @@ Generalization_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name=&quot;Centre&quot; 
 Realization.DisplayedStereotype=Yes
 Realization.DisplayName=No
 Realization.DisplayedRules=Yes
-Realization_SymbolLayout=
+Realization_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name=&quot;Centre&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;DisplayedStereotype&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Contrainte&quot; Attribute=&quot;DisplayedRules&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Source&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Destination&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
 Dependency.DisplayedStereotype=Yes
 Dependency.DisplayName=No
 Dependency.DisplayedRules=Yes
@@ -2259,7 +2261,7 @@ Interface.TextStyle=No
 Interface_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom d&amp;#39;interface&quot; Attribute=&quot;DisplayedQualifiedName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Contrainte&quot; Attribute=&quot;Constraint&quot; Prefix=&quot;{&quot; Suffix=&quot;}&quot; Alignment=&quot;RGHT&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardCollection Name=&quot;Attributs&quot; Collection=&quot;Attributes&quot; Columns=&quot;DisplayVisibilityMarker No\r\nDisplayVisibilityKeyword No\r\nDisplayVisibilityIcon No\r\nStereotype No\r\nDisplayName Yes\r\nDataType No\r\nDomain No\r\nInitialValue No&quot; HasLimit=&quot;Yes&quot; HideEmpty=&quot;No&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardCollection Name=&quot;Opérations&quot; Collection=&quot;Operations&quot; Columns=&quot;DisplayVisibilityMarker No\r\nDisplayVisibilityKeyword No\r\nDisplayVisibilityIcon No\r\nStereotype No\r\nSignatureWithoutParameters No\r\nSignatureWithParameters No\r\nReturnType No&quot; HasLimit=&quot;Yes&quot; HideEmpty=&quot;No&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardCollection Name=&quot;Classificateurs internes&quot; Collection=&quot;InnerClassifiers&quot; Columns=&quot;DisplayInnerIcon Yes\r\nDisplayNameGeneric Yes&quot; HasLimit=&quot;No&quot; HideEmpty=&quot;Yes&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Commentaire&quot; Attribute=&quot;Comment&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;LEFT&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Forcer l&amp;#39;alignement en haut&quot; Attribute=&quot;TextStyle&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
 Port.IconPicture=No
 Port.TextStyle=No
-Port_SymbolLayout=
+Port_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Forcer l&amp;#39;alignement en haut&quot; Attribute=&quot;TextStyle&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
 Association.RoleAMultiplicity=Yes
 Association.RoleAName=Yes
 Association.RoleAOrdering=Yes
@@ -2698,14 +2700,14 @@ Shadow=0</a:DisplayPreferences>
 <o:AssociationSymbol Id="o5">
 <a:CreationDate>1610050876</a:CreationDate>
 <a:ModificationDate>1610050891</a:ModificationDate>
-<a:Rect>((12001,967), (15899,6667))</a:Rect>
+<a:Rect>((12038,967), (15862,6667))</a:Rect>
 <a:ListOfPoints>((14025,6667),(14025,967))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>3592</a:ArrowStyle>
 <a:LineColor>4194432</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>DISPNAME 0 Arial,8,N
-MULA 0 Arial,8,N</a:FontList>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
 <o:ClassSymbol Ref="o6"/>
 </c:SourceSymbol>
@@ -2719,14 +2721,14 @@ MULA 0 Arial,8,N</a:FontList>
 <o:AssociationSymbol Id="o9">
 <a:CreationDate>1610050883</a:CreationDate>
 <a:ModificationDate>1610050959</a:ModificationDate>
-<a:Rect>((-19348,592), (-15450,6817))</a:Rect>
+<a:Rect>((-19311,592), (-15487,6817))</a:Rect>
 <a:ListOfPoints>((-17324,6817),(-17324,592))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>3592</a:ArrowStyle>
 <a:LineColor>4194432</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>DISPNAME 0 Arial,8,N
-MULA 0 Arial,8,N</a:FontList>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
 <o:ClassSymbol Ref="o10"/>
 </c:SourceSymbol>
@@ -2752,14 +2754,14 @@ MULA 0 Arial,8,N</a:FontList>
 <o:AssociationSymbol Id="o14">
 <a:CreationDate>1609938995</a:CreationDate>
 <a:ModificationDate>1609938995</a:ModificationDate>
-<a:Rect>((-19074,10535), (-8175,17135))</a:Rect>
+<a:Rect>((-19074,10535), (-8175,17485))</a:Rect>
 <a:ListOfPoints>((-8175,17135),(-17087,17135),(-17087,10535))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>3336</a:ArrowStyle>
 <a:LineColor>4194432</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>DISPNAME 0 Arial,8,N
-MULA 0 Arial,8,N</a:FontList>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
 <o:ClassSymbol Ref="o15"/>
 </c:SourceSymbol>
@@ -2773,14 +2775,14 @@ MULA 0 Arial,8,N</a:FontList>
 <o:AssociationSymbol Id="o17">
 <a:CreationDate>1609939023</a:CreationDate>
 <a:ModificationDate>1609939023</a:ModificationDate>
-<a:Rect>((301,7226), (9120,16436))</a:Rect>
+<a:Rect>((-49,7424), (9120,16436))</a:Rect>
 <a:ListOfPoints>((301,16436),(301,8400),(9120,8400))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>3336</a:ArrowStyle>
 <a:LineColor>4194432</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>DISPNAME 0 Arial,8,N
-MULA 0 Arial,8,N</a:FontList>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
 <o:ClassSymbol Ref="o15"/>
 </c:SourceSymbol>
@@ -2793,7 +2795,7 @@ MULA 0 Arial,8,N</a:FontList>
 </o:AssociationSymbol>
 <o:ClassSymbol Id="o15">
 <a:CreationDate>1609925728</a:CreationDate>
-<a:ModificationDate>1609938546</a:ModificationDate>
+<a:ModificationDate>1610056753</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
 <a:Rect>((-8175,14179), (451,20921))</a:Rect>
 <a:LineColor>128</a:LineColor>
@@ -2816,7 +2818,7 @@ LABL 0 Arial,8,N</a:FontList>
 </o:ClassSymbol>
 <o:ClassSymbol Id="o6">
 <a:CreationDate>1609931261</a:CreationDate>
-<a:ModificationDate>1609931478</a:ModificationDate>
+<a:ModificationDate>1610056753</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
 <a:Rect>((8692,6490), (16286,10310))</a:Rect>
 <a:LineColor>128</a:LineColor>
@@ -2839,7 +2841,7 @@ LABL 0 Arial,8,N</a:FontList>
 </o:ClassSymbol>
 <o:ClassSymbol Id="o10">
 <a:CreationDate>1609931320</a:CreationDate>
-<a:ModificationDate>1609931476</a:ModificationDate>
+<a:ModificationDate>1610056753</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
 <a:Rect>((-20783,6715), (-13343,10535))</a:Rect>
 <a:LineColor>128</a:LineColor>
@@ -2862,7 +2864,7 @@ LABL 0 Arial,8,N</a:FontList>
 </o:ClassSymbol>
 <o:ClassSymbol Id="o11">
 <a:CreationDate>1609938221</a:CreationDate>
-<a:ModificationDate>1610050959</a:ModificationDate>
+<a:ModificationDate>1610056753</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
 <a:Rect>((-22473,-6146), (-13153,596))</a:Rect>
 <a:LineColor>128</a:LineColor>
@@ -2885,7 +2887,7 @@ LABL 0 Arial,8,N</a:FontList>
 </o:ClassSymbol>
 <o:ClassSymbol Id="o7">
 <a:CreationDate>1609938223</a:CreationDate>
-<a:ModificationDate>1610050891</a:ModificationDate>
+<a:ModificationDate>1610056753</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
 <a:Rect>((9721,-4684), (17805,1084))</a:Rect>
 <a:LineColor>128</a:LineColor>
@@ -2910,7 +2912,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1609938586</a:CreationDate>
 <a:ModificationDate>1609938675</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-22481,26103), (-15247,30897))</a:Rect>
+<a:Rect>((-22056,26103), (-15672,30897))</a:Rect>
 <a:LineColor>128</a:LineColor>
 <a:FillColor>8637161</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -3175,11 +3177,11 @@ LABL 0 Arial,8,N</a:FontList>
 </o:Attribute>
 <o:Attribute Id="o41">
 <a:ObjectID>25B208EA-3FDC-49E7-AA21-D3E4E6E9749A</a:ObjectID>
-<a:Name>Attribut_2</a:Name>
+<a:Name>Num_V</a:Name>
 <a:Code>Num_V</a:Code>
 <a:CreationDate>1610050670</a:CreationDate>
 <a:Creator>Youcode</a:Creator>
-<a:ModificationDate>1610050791</a:ModificationDate>
+<a:ModificationDate>1610055775</a:ModificationDate>
 <a:Modifier>Youcode</a:Modifier>
 <a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
@@ -3271,16 +3273,17 @@ LABL 0 Arial,8,N</a:FontList>
 </c:Associations>
 <c:TargetModels>
 <o:TargetModel Id="o42">
-<a:ObjectID>B8AE9D8A-45D9-4F50-A221-15664E5A07A1</a:ObjectID>
-<a:Name>C#</a:Name>
-<a:Code>C#</a:Code>
-<a:CreationDate>1610050631</a:CreationDate>
+<a:ObjectID>0DACAFD5-DC1D-49EA-AF52-109AFD21FA58</a:ObjectID>
+<a:Name>Visual Basic .NET</a:Name>
+<a:Code>VB.NET</a:Code>
+<a:CreationDate>1610056753</a:CreationDate>
 <a:Creator>Youcode</a:Creator>
-<a:ModificationDate>1610050631</a:ModificationDate>
+<a:ModificationDate>1066649891</a:ModificationDate>
 <a:Modifier>Youcode</a:Modifier>
-<a:TargetModelURL>file:///%_OBJLANG%/csharp.xol</a:TargetModelURL>
-<a:TargetModelID>D1E2D0BE-98BB-4413-890E-9D790F33B4DC</a:TargetModelID>
+<a:TargetModelURL>file:///%[XOL]%/vbnet.xol</a:TargetModelURL>
+<a:TargetModelID>4ED0AF77-254B-46CC-84FE-C6C81D4E2BE8</a:TargetModelID>
 <a:TargetModelClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
+<a:TargetModelLastModificationDate>1066649891</a:TargetModelLastModificationDate>
 <c:SessionShortcuts>
 <o:Shortcut Ref="o3"/>
 </c:SessionShortcuts>
